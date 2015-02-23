@@ -40,3 +40,8 @@ $(call inherit-product-if-exists, hardware/broadcom/wlan/bcmdhd/config/config-bc
 
 # common g3
 $(call inherit-product, device/lge/g3-common/g3.mk)
+
+# korean modification
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.product.locale.language=ko \
+    ro.product.locale.region=KR
