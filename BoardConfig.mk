@@ -17,15 +17,15 @@
 # inherit from common g3
 -include device/lge/g3-common/BoardConfigCommon.mk
 
-TARGET_OTA_ASSERT_DEVICE := g3,f400,f400k,f400s,f400l
+TARGET_OTA_ASSERT_DEVICE := g3,f400
 
 # Bluetooth
-BOARD_BLUEDROID_VENDOR_CONF := device/lge/f400k/bluetooth/vnd_g3.txt
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/f400k/bluetooth
+BOARD_BLUEDROID_VENDOR_CONF := device/lge/f400/bluetooth/vnd_g3.txt
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/f400/bluetooth
 BOARD_HAVE_BLUETOOTH_BCM := true
 
 # Kernel
-TARGET_KERNEL_CONFIG := cyanogenmod_f400k_defconfig
+TARGET_KERNEL_CONFIG := cyanogenmod_f400_defconfig
 TARGET_REQUIRES_BUMP := true
 
 # Partitions
@@ -33,9 +33,10 @@ BOARD_BOOTIMAGE_PARTITION_SIZE := 16777216
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 16777216
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2583691264
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 27426023424
+TARGET_USERIMAGES_USE_F2FS := true
 
 # Recovery
-TARGET_RECOVERY_FSTAB := device/lge/f400k/rootdir/etc/fstab.g3
+TARGET_RECOVERY_FSTAB := device/lge/f400/rootdir/etc/fstab.g3
 
 # NFC
 BOARD_NFC_CHIPSET := pn547
@@ -53,4 +54,4 @@ WIFI_DRIVER_FW_PATH_STA := "/system/etc/firmware/fw_bcmdhd.bin"
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # inherit from the proprietary version
--include vendor/lge/f400k/BoardConfigVendor.mk
+-include vendor/lge/f400/BoardConfigVendor.mk

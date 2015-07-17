@@ -17,7 +17,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/lge/f400k/f400k-vendor.mk)
+$(call inherit-product-if-exists, vendor/lge/f400/f400-vendor.mk)
 
 # Audio
 PRODUCT_COPY_FILES += \
@@ -45,8 +45,3 @@ $(call inherit-product-if-exists, hardware/broadcom/wlan/bcmdhd/config/config-bc
 
 # common g3
 $(call inherit-product, device/lge/g3-common/g3.mk)
-
-# korean modification
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.product.locale.language=ko \
-    ro.product.locale.region=KR
