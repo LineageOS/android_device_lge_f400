@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "df140735_dcc1e182",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 3962
+      },
+      "writtenOn": "2015-07-21T08:54:15Z",
+      "side": 0,
+      "message": "Probably want to leave these in here just in case.",
+      "range": {
+        "startLine": 20,
+        "startChar": 35,
+        "endLine": 20,
+        "endChar": 53
+      },
+      "revId": "ac0d083052767240a8c1356b61b4c2cb2a9dec68",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "df140735_f9ca774d",
         "filename": "device.mk",
         "patchSetId": 1
@@ -13,6 +36,30 @@
       "writtenOn": "2015-07-21T01:22:11Z",
       "side": 0,
       "message": "if these need to be set for certain variants, a vendor init could work",
+      "range": {
+        "startLine": 51,
+        "startChar": 34,
+        "endLine": 51,
+        "endChar": 35
+      },
+      "revId": "ac0d083052767240a8c1356b61b4c2cb2a9dec68",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "df140735_1cd07950",
+        "filename": "device.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 3962
+      },
+      "writtenOn": "2015-07-21T08:54:15Z",
+      "side": 0,
+      "message": "I doubt they NEED to be set for anything, but it would probably be more convenient since the F400 is Korea only.",
+      "parentUuid": "df140735_f9ca774d",
       "range": {
         "startLine": 51,
         "startChar": 34,

@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "df140735_bcbe2dfd",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 3962
+      },
+      "writtenOn": "2015-07-21T08:54:15Z",
+      "side": 1,
+      "message": "Same as Dan\u0027s comment in fstab.g3",
+      "range": {
+        "startLine": 36,
+        "startChar": 0,
+        "endLine": 36,
+        "endChar": 34
+      },
+      "revId": "9312608e36e625ec4d82375c4a1ac1ca8a71d33d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "df140735_d9c7b345",
         "filename": "rootdir/etc/fstab.g3",
         "patchSetId": 1
@@ -13,6 +36,30 @@
       "writtenOn": "2015-07-21T01:22:11Z",
       "side": 1,
       "message": "the f2fs additions should probably be in a separate commit",
+      "range": {
+        "startLine": 11,
+        "startChar": 47,
+        "endLine": 11,
+        "endChar": 52
+      },
+      "revId": "9312608e36e625ec4d82375c4a1ac1ca8a71d33d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "df140735_fcc4a594",
+        "filename": "rootdir/etc/fstab.g3",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 3962
+      },
+      "writtenOn": "2015-07-21T08:54:15Z",
+      "side": 1,
+      "message": "Agreed",
+      "parentUuid": "df140735_d9c7b345",
       "range": {
         "startLine": 11,
         "startChar": 47,
