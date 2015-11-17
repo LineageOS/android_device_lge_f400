@@ -45,6 +45,10 @@ bin/netmgrd
 bin/qmuxd
 bin/rfs_access
 bin/rmt_storage
+<<<<<<< HEAD
+=======
+lib/libconfigdb.so
+>>>>>>> 11ec7ecdcff3ce78853a15d7cde6dd4cfa1042ad
 lib/libmdmdetect.so
 lib/libril.so
 lib/libuicc.so
