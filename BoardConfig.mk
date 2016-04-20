@@ -26,7 +26,7 @@ BOARD_HAVE_BLUETOOTH_BCM := true
 
 # Kernel
 TARGET_KERNEL_CONFIG := cyanogenmod_f400_defconfig
-TARGET_REQUIRES_BUMP := true
+PRODUCT_PRIVATE_KEY := device/lge/g3-common/bootkey.mk
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 16777216
