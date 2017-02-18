@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa5d592f_ea915c53",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 3081
+      },
+      "writtenOn": "2017-02-18T06:52:15Z",
+      "side": 1,
+      "message": "Looks like it\u0027s being renamed to the same string as the original file name. We should remove the renaming.",
+      "range": {
+        "startLine": 15,
+        "startChar": 41,
+        "endLine": 15,
+        "endChar": 61
+      },
+      "revId": "56e7222f6e2be883ef5f2fdc74a32a74f015c428",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
