@@ -35,6 +35,10 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/gps.conf:system/etc/gps.conf
 
+# Radio
+PRODUCT_PACKAGES += \
+    librmnetctl
+
 # Wifi
 PRODUCT_PACKAGES += \
     libnetcmdiface
