@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa5d592f_8d52ef11",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1690
+      },
+      "writtenOn": "2017-02-21T18:04:05Z",
+      "side": 1,
+      "message": "Just to be clear this should be BCM4339_003.001.009.0098.0415_B2_KR_ORC unless it needs to be something else",
+      "range": {
+        "startLine": 15,
+        "startChar": 76,
+        "endLine": 15,
+        "endChar": 115
+      },
+      "revId": "53c42edab73b5eddde0e74f2b2638937e9738bf2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
