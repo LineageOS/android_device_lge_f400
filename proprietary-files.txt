@@ -12,7 +12,7 @@ vendor/lib/libadiertac.so
 vendor/lib/libaudcal.so
 
 # Bluetooth firmware
-vendor/firmware/BCM4339_003.001.009.0098.0415_B2_KR_ORC.hcd
+vendor/firmware/BCM4335_003.001.009.0098.0415_B2_KR_ORC.hcd
 
 # Qualcomm framework
 vendor/lib/libdiag.so
