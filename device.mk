@@ -41,6 +41,7 @@ PRODUCT_PACKAGES += \
 
 # Wifi
 PRODUCT_PACKAGES += \
+    libwifi-hal-bcm \
     libnetcmdiface
 
 # NFC packages
