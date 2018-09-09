@@ -25,6 +25,9 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/f400/bluetooth
 BOARD_CUSTOM_BT_CONFIG := device/lge/f400/bluetooth/vnd_g3.txt
 BOARD_HAVE_BLUETOOTH_BCM := true
 
+# Extended Filesystem Support
+TARGET_EXFAT_DRIVER := sdfat
+
 # Kernel
 TARGET_KERNEL_CONFIG := lineageos_f400_defconfig
 TARGET_REQUIRES_BUMP := true
